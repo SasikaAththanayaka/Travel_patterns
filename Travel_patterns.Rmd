@@ -1,0 +1,25 @@
+---
+title: "Nation’s travel patterns"
+author: "S/17/314"
+date: "2022-11-23"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+A researcher wants to analyse and prepare a report on the nation’s travel
+patterns across time and places in the USA. He considered travel patterns
+of all 50 states of the USA from 2015 to 2019. He has extracted data
+according to the following variables from the official website of the United
+States Census Bureau.
+
+1. year - year that data was recorded
+2. region - region in which the state is located
+3. state - name of the state
+4. gender - gender of the workers
+5. mode_of_trans - mode of transportation used to travel from home to work
+6. count - number of workers
+
